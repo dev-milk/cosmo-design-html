@@ -13,8 +13,8 @@
         <nav>
             <ul>
                 <li><a href="#">HOME</a></li>
-                <li><a href="#">ブログ</a></li>
-                <li><a href="#">このサイトについて</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">ABOUT</a></li>
                 <li><a href="#">お問い合わせ</a></li>
             </ul>
         </nav>
@@ -29,10 +29,10 @@
                   <a class="sp-menu_link" href="#">Home</a>
                 </li>
                 <li class="sp-menu_item">
-                  <a class="sp-menu_link" href="#">ブログ</a>
+                  <a class="sp-menu_link" href="#">BLOG</a>
                 </li>
                 <li class="sp-menu_item">
-                  <a class="sp-menu_link" href="#">このサイトについて</a>
+                  <a class="sp-menu_link" href="#">ABOUT</a>
                 </li>
                 <li class="sp-menu_item">
                   <a class="sp-menu_link" href="#">お問い合わせ</a>
@@ -49,16 +49,21 @@
 
     <div id="contents">
 
-        <div id="main">
+        <div class="main">
+
             <article>
-                <h1>２カラムの作り方</h1>
+              <h1 class="article-title">
+                <a href="#">ブログタイトル</a>
+              </h1>
+              <a href="#">タイトル</a>
+              <div class="text">aaaaaaaaaaaaa</div>
             </article>
+
         </div>
 
         <div id="sidebar">
             <aside>
-                <div class="bnr_inner">
-                    <a href="#">
+              <a href="#">
                     <dl>
                         <dt></dt>
                         <dd>サイドコンテンツ-1</dd>
@@ -69,8 +74,7 @@
                             <dt></dt>
                             <dd>サイドコンテンツ-2</dd>
                         </dl>
-                        </a>
-                </div>
+                  </a>
             </aside>
         </div>
 
@@ -78,10 +82,19 @@
 
     <footer>
         <div id="footer">
-            <div class="item">フッターロゴ</div>
-            <div class="item">サイトマップ</div>
+            <div class="item">
+              <div class="footer-logo"><a href="index.html"><img src="./img/footer-logo.png" alt="footer-logo"></a></div>
+            </div>
+            <div class="item">
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li class="list-item"><a href="#">お問い合わせ</a></li>
+              </ul>
+            </div>
+            <div class="copyright"><small>&copy;&nbsp;devcosmo.biz</small></div>
         </div>
-        <p class="copyright"><small>&copy;devcosmo.biz</small></p>
     </footer>
 
 </body>
