@@ -14,6 +14,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #666;
 }
 
 a :hover {
@@ -233,7 +234,6 @@ Contents
 main {
     float: left;
     width: 68%;
-    border: 1px solid #666; /* 後で消す  */
 }
 
 main article {
@@ -361,7 +361,6 @@ Aside
 #sidebar {
   float: right;
   width: 28%;
-  border: 1px solid #666; /* 後で消す  */
 }
 
 #sidebar .side-title {
@@ -373,17 +372,29 @@ Aside
 
 .author {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .author-img {
   width: 60%;
   height: 60%;
 }
+
 .profile {
   font-size: 0.9rem;
   text-align: left;
   margin-bottom: 5px;
+}
+
+#searchform {
+  border: #14213D 1px solid;
+  border-radius: 5px;
+  padding: 2px 2px 10px;
+}
+
+.side-item {
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .archive {
@@ -398,20 +409,25 @@ Aside
   border-top: solid  1px #777;
   padding: 20px;
   text-align: left;
+  text-decoration: none;
   position: relative;
 }
 
-.archive li a:hover {
-  opacity: 0.7;
-}
+
+
 
 @media screen and (max-width: 767px) {
   #sidebar {
+    flex-direction: column;
     width: 100%;
     padding: 0;
   }
   .author {
     margin-top: 30px;
+  }
+  .author-img {
+    width: 50%;
+    height: 50%;
   }
   
 }
@@ -426,6 +442,7 @@ footer {
     background: #14213D;
     color:#fff;
     border-top: #F2F415 10px solid;
+    position: relative;
 }
 
 #footer {
@@ -433,9 +450,7 @@ footer {
     display: flex;
     justify-content:space-between;
     width: 1280px;
-    padding-top: 10px;
-    padding-bottom: 50px;
-    position: relative;
+    
   }
 
    #footer a {
@@ -469,12 +484,13 @@ footer {
   }
 
   
-  #footer .copyright {
+  footer .copyright {
     position: absolute;
     left:50%;
-    bottom: 8px;
-    padding-bottom: 10px;
+    bottom: 0px;
     font-size: 1rem;
+    margin-top: 5px;
+    padding-bottom: 5px;
   }
 
   
@@ -489,13 +505,13 @@ footer {
 }
 
 @media screen and (max-width: 797px) {
+
   #footer {
     flex-direction: column;
   }
-
   #footer .item {
     width:90%;
   }
-  
+
 }
 
