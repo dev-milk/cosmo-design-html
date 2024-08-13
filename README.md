@@ -11,6 +11,7 @@ https://dev-milk.github.io/cosmo-design-html/
 
 デザインカンプ
 --------------------------
+https://github.com/dev-milk/cosmo-design-html/blob/master/design-comp.pdf
 
 
 タスク残件
