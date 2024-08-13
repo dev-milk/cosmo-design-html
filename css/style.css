@@ -352,7 +352,7 @@ main .text {
 }
 
 
-@media screen and (min-width:768px) and ( max-width:1024px)  {
+@media screen and (max-width:768px) and ( max-width:1024px)  {
   #contents {
     flex-direction: column;
   }
@@ -361,7 +361,6 @@ main .text {
     width: 100%;
     margin-top: 20px;
   }
-
 
 }
 
@@ -429,7 +428,7 @@ Aside
 }
 
 
-@media screen and (min-width:768px) and ( max-width:1024px) {
+@media screen and (max-width:768px) and ( max-width:1024px) {
   #sidebar {
     flex-direction: column;
     width: 90%;
