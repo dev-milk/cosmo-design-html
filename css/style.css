@@ -226,7 +226,8 @@ Contents
 -------------------------------------------*/
 .wrapper {
   overflow: hidden;
-  max-width: 1280px;
+  /* max-width: 1280px; */
+  width: auto;
   padding: 0 16px;
   margin: 0 auto;
 }
