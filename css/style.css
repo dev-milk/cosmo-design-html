@@ -12,6 +12,7 @@ body {
   font-family: "Helvetica Neue", Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo, sans-serif;
 }
 
+
 a {
   text-decoration: none;
   color: #666;
@@ -223,16 +224,21 @@ nav ul li a:hover {
 /*-------------------------------------------
 Contents
 -------------------------------------------*/
+.wrapper {
+  overflow: hidden;
+  max-width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+
 #contents {
-    overflow: hidden;
-    margin: 0 auto;
-    padding: 20px;
-    max-width: 1280px;
-    height: auto;
+  display: flex;
+  justify-content: space-between;
+
 }
 
 main {
-    float: left;
     width: 68%;
 }
 
@@ -343,7 +349,7 @@ main .text {
 }
 
 @media screen and (max-width: 767px) {
-  #container {
+  #contents {
     flex-direction: column;
   }
   
