@@ -6,6 +6,10 @@ Theme Name: devcosmo
 /*-------------------------------------------
 common
 -------------------------------------------*/
+html {
+  font-size: 100%;
+}
+
 body {
   color: #333;
   font-size: 1rem;
@@ -81,7 +85,7 @@ Logo
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   header .container {
     width: 100%;
     height: 180px;
@@ -97,7 +101,7 @@ Logo
   }
 }
 
-@media screen and (min-width: 797px) {
+@media screen and (min-width: 768px) {
   .sp-logo {
     display:none;
   }
@@ -234,7 +238,6 @@ Contents
   max-width: 1280px;
   padding: 0 16px;
   margin: 0 auto;
-
 }
 
 main {
@@ -266,6 +269,7 @@ main .article-title:before {
 }
 
 main .article-title a {
+  font-size: 1.6rem;
   color: #333;
   text-decoration: none;
 }
@@ -348,10 +352,9 @@ main .text {
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width:768px) and ( max-width:1024px)  {
   #contents {
     flex-direction: column;
-    
   }
 
   main {
@@ -426,16 +429,17 @@ Aside
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width:768px) and ( max-width:1024px) {
   #sidebar {
     flex-direction: column;
-    width: 100%;
-    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
   }
   
   .author-img {
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
   }
 
   #sidebar .side-title {
@@ -444,6 +448,7 @@ Aside
   }
   
 }
+
 
 
 /*-------------------------------------------
@@ -545,7 +550,7 @@ footer {
 
 }
 
-@media screen and (max-width: 797px) {
+@media screen and (max-width: 768px) {
 
   #footer {
     flex-direction: column;
