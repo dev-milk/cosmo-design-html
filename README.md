@@ -17,9 +17,9 @@ https://github.com/dev-milk/cosmo-design-html/blob/master/design-comp.pdf
 タスク残件
 --------------------------
 
-・ページネーション
-
 ・記事ページ（＋タイポグラフィ）
+
+・お問い合わせ（＋フォーム）
 
 作者
 ------

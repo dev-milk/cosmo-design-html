@@ -452,6 +452,43 @@ Sidebar
 }
 
 /*-------------------------------------------
+Pagenation
+-------------------------------------------*/
+
+.pg-container {
+  text-align: center;
+  margin: 5px 0 30px;
+}
+.pg-block {
+  display: inline-block;
+}
+
+.pg-block a {
+  color: #252525;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s linear;
+  border: 2px solid #14213D;
+  margin: 0 4px;
+}
+
+.pg-block a.active {
+  background-color: #14213D;
+  color: #fff;
+  border: 1px solid #14213D;
+}
+
+.pg-block a:hover:not(.active) {background-color: #ddd;}
+
+@media screen and (max-width:768px) and ( max-width:1024px) {
+  .pg-container {
+    margin-bottom: 45px;
+  }
+}
+
+
+/*-------------------------------------------
 Hero-area bottom
 -------------------------------------------*/
 #hero-area {
@@ -506,9 +543,6 @@ img .hero-left {
   font-size: 1.0rem;
   margin-bottom: 8px;
 }
-
-
-
 
 /*-------------------------------------------
 Footer
