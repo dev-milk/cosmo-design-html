@@ -19,8 +19,6 @@ https://github.com/dev-milk/cosmo-design-html/blob/master/design-comp.pdf
 
 ・ページネーション
 
-・トップ戻るボタン
-
 ・記事ページ（＋タイポグラフィ）
 
 作者

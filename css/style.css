@@ -580,3 +580,55 @@ footer {
   }
 
 }
+
+/*-------------------------------------------
+Go top
+-------------------------------------------*/
+.gotop{
+  display: block;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 2px solid #F2F415;
+  background: #F2F415;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #14213D;
+  text-shadow: 1px 2px 3px #333; 
+  opacity: 1.0;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 10000;
+}
+.gotop::before{
+  content: "";
+  display: block;
+  border-top: 3px solid #14213D;
+  border-right: 3px solid #14213D;
+  width: 30%;
+  height: 30%;
+  top: 40%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  transform: rotate(-45deg);
+}
+.gotop:hover{
+  background:rgba(242, 244, 21, 0.75);
+  color: #14213D;
+  
+}
+
+.gotop:hover::before{
+  border-top: 3px solid #14213D;
+  border-right: 3px solid #14213D;
+}
+
