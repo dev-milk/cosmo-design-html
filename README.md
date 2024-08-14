@@ -16,15 +16,12 @@ https://github.com/dev-milk/cosmo-design-html/blob/master/design-comp.pdf
 
 タスク残件
 --------------------------
-・ボトムのヒーローエリア
-
-・フッターの調整
 
 ・ページネーション
 
 ・トップ戻るボタン
 
-・記事ページ
+・記事ページ（＋タイポグラフィ）
 
 作者
 ------
