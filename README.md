@@ -17,6 +17,11 @@ https://github.com/dev-milk/cosmo-design-html/blob/master/design-comp.pdf
 WPテーマ
 --------------------------
 
+タスク残件
+--------------------------
+・ファビコン設定
+
+・ぱんくず設定
 
 
 
