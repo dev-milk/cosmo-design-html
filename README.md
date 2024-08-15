@@ -14,12 +14,11 @@ https://dev-milk.github.io/cosmo-design-html/
 https://github.com/dev-milk/cosmo-design-html/blob/master/design-comp.pdf
 
 
-タスク残件
+WPテーマ
 --------------------------
 
-・記事ページ（＋タイポグラフィ）
 
-・お問い合わせ（＋フォーム）
+
 
 作者
 ------
