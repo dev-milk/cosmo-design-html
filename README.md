@@ -2,7 +2,7 @@
 
 ===================================
 
- cosmo-design-htmは、WordPressオリジナルテーマのHTML版です。
+ cosmo-design-htmlは、WordPressオリジナルテーマのHTML版です。
 
 ライブレビュー
 --------------
