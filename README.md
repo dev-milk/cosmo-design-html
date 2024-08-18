@@ -16,7 +16,8 @@ https://github.com/dev-milk/cosmo-design-html/blob/master/design-comp.pdf
 
 WPテーマ
 --------------------------
-https://github.com/dev-milk/cosmo-design
+https://github.com/dev-milk/cosmo-design-open　*PUBLIC
+https://github.com/dev-milk/cosmo-design *PRIVATE
 
 
 作者
