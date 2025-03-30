@@ -7,7 +7,7 @@
 ライブレビュー
 --------------
 
-https://dev-milk.github.io/cosmo-design-html/
+https://echant.awe.jp/devcosmo-html
 
 デザインカンプ
 --------------------------
